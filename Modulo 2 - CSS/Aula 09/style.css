@@ -1,0 +1,35 @@
+/* Regra em CSS sempre tem: Seletor, propriedade, valor */
+body{
+    background: rgba(165, 159, 152, 0.466);
+    font-family: 'Raleway', sans-serif;
+    color: #272222;
+} 
+
+h1{
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(92, 91, 91);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.fotoPrincipal{
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px #000000;
+}
+   
+/*
+Border, Margin, Padding = Box-Model, a maneira como uma caixa se comporta dentro do CSS
+
+box-shadow = sombra 2px(Distância na Horizontal) 2px(Distância na Vertical) 2px (Desfoque) #000000 (Cor);
+*/

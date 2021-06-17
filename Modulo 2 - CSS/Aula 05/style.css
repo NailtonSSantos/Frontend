@@ -1,0 +1,36 @@
+/* Regra em CSS sempre tem: Seletor, propriedade, valor */
+body{
+    background: rgba(165, 159, 152, 0.466);
+} 
+
+p{
+    color: #727272;
+}
+
+.fotoPrincipal{
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin: 30px 30px 30px 30px;
+}
+   
+/*Shorthand - agrupar em uma linha.
+    
+    margin: 30px(top) 30px(Right) 30px(bottom - Abaixo) 30px(left);
+    Está em Shorthand
+
+   width: 200px; Solto assim, ele se refere a tag, no caso a tag da foto principal
+   Nas bordas: Primeiro o Width, Depois o style, por fim o Color
+
+   border: 2px solid #FFFFFF;
+   Essa única linha de cima, representa essas três propriedades aqui abaixo:
+   border-width: 15px;
+   border-style: solid;
+   border-color: black;
+
+   border-radius: 50%; Altera cada borda individualmente
+   ESQUERDA - DIREITA - ACIMA - ABAIXO
+   
+   Editar Bordas individualmente, exemplo:
+   border-style: solid solid solid dotted;
+   ESQUERDA - DIREITA - ACIMA - ABAIXO*/

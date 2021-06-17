@@ -1,0 +1,9 @@
+/* Regra em CSS sempre tem: Seletor, propriedade, valor */
+body{
+    background: rgba(165, 159, 152, 0.466);
+} 
+
+p{
+    color: #727272;
+}
+    

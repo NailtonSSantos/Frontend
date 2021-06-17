@@ -1,0 +1,15 @@
+/* Regra em CSS sempre tem: Seletor, propriedade, valor */
+body{ /*Body é uma Tag*/
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.titulos{ /*essa é uma classe, começa com ponto, criei ela pra todos os H1*/
+    color: greenyellow
+}
+
+#linkedin{ /*Marcação por ID, usa-se a Hashtag no início, é único, somente uma tag o recebe*/
+     background: rgb(255, 0, 0);
+     color: blanchedalmond;
+    
+}

@@ -1,0 +1,14 @@
+/* Regra em CSS sempre tem: Seletor, propriedade, valor */
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    /*background-position: 100% 10%;*/
+    background-position: left center;
+    background-size: cover;/*Não se repete, mas cobre a tela toda*/
+    background-attachment: fixed; /*A imagem não se move de acordo com o Zoom, fica um tamanho fixo
+} 
+
+p{
+    color: #727272;
+}
+    

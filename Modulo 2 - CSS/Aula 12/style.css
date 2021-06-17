@@ -1,0 +1,90 @@
+/* Regra em CSS sempre tem: Seletor, propriedade, valor */
+body{
+    background: rgba(165, 159, 152, 0.466);
+    font-family: 'Raleway', sans-serif;
+    color: #272222;
+    margin: 0;
+} 
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-style: italic;
+    color: rgb(92, 91, 91);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+h4{
+    margin-bottom: 8px;
+}
+
+h5{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight:500;
+    font-style: italic;
+}
+
+p{
+    line-height: 25px;
+    margin-top: 0%;
+}
+
+.fotoPrincipal{
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin: 30px 30px 0 30px;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+.social-icons{
+    width: 20px;
+    height: auto;
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+.github{
+    margin: 0 15px 0 15px;
+}
+
+.jobs-list{
+    padding-left: 0;
+    list-style: none;
+}
+
+footer{
+    margin-top: 50px;
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+    
+    
+/*
+Border, Margin, Padding = Box-Model, a maneira como uma caixa se comporta dentro do CSS
+
+box-shadow = sombra 2px(Distância na Horizontal) 2px(Distância na Vertical) 2px (Desfoque) #000000 (Cor);
+*/

@@ -1,0 +1,65 @@
+/*Aula de Animações*/
+
+body{
+    margin: 100px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    
+    animation-name: minhaAnimacao;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 5000ms;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+p{
+    animation-name: minhaAnimacao;
+}
+
+@keyframes minhaAnimacao{
+    0%{
+        background-color: black;
+    }
+
+    33%{
+        transform: rotate(360deg) translate(50px 50px);
+    }
+    
+    50%{
+        border: 20px solid brown;
+        box-shadow: 0 0 120px black;
+    }
+
+    100%{
+        border: 0px solid brown;
+        background-color: forestgreen;
+        transform: rotate(360deg);
+    }
+
+
+    /*from{
+        background-color: black;
+    }
+
+    to{
+        background-color: forestgreen;
+        transform: rotate(360deg);
+    }*/
+}
+
+    /*
+    - Para criar animações coloco @keyframes
+    - Keyframe começa no from{} e vai pra o to{}
+    - Ao invéz de from e to, posso definir etapas, 0% (estágio inicial), 50% da duração, 100% (estágio final)
+    - Preciso definir o nome da animação e a duração no elemento, conforme os animation-name e duration-name na .box
+    - Quantidade de repetições da animação: animation-interation-count
+    - animation-dalay: tempo antes de iniciar
+    - Animation-direction
+
+    https://www.w3schools.com/css/css3_animations.asp
+    */

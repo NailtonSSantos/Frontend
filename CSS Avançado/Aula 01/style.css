@@ -1,0 +1,24 @@
+:root{
+    --corPrimaria: rgb(5, 52, 114);
+    --corSecundaria: rgb(32, 108, 207);
+
+    --espacamento: 16px;
+}
+
+h1{
+    color: var(--corPrimaria);
+}
+
+h2, h3{
+    color: var(--corSecundaria);
+    margin: var(--espacamento);
+}
+
+p{
+    color: var(--corPrimaria);
+}
+
+button{
+    background: var(--corPrimaria);
+    color: white;
+}

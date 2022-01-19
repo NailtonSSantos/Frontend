@@ -1,0 +1,18 @@
+
+body{
+    font-size: 15px;
+}
+
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+p{
+    font-size: 2em; /*2 x 15, ou seja 30px / EM é usado pra fontes e é relativo ao Font-size do pai*/
+}
+
+/*rem - Unidade relativa ao root*/
+/*https://www.w3schools.com/css/css_units.asp*/
+/*outra unidade de medida são vh e vw*/

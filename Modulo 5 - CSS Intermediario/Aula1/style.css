@@ -1,0 +1,35 @@
+.exemplo{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.exemplo1 p.red{
+    color: red;
+}
+
+.margin{
+    margin: 50px;
+}
+
+h1, h2, h3{
+    color: blue;
+}
+
+.classe1, .classe2, .classe3{   /*Tec chamada de Combinators: Também pode ser usado com várias classes ou IDs*/
+    color: blueviolet;
+}
+
+.exemplo2 > p{   /*Sinal de > Aplica a regra apenas nas Tags Filhas, diretamente*/
+    color: blue;
+}
+
+.exemplo3 + p{ /*Sinal de + Aplica a regra no primeiro elemento irmão de Exemplo 3, no caso, o <p>**/
+    color: red;
+}
+
+.exemplo4 ~ p{  /*Sinal de ~ Aplica a regra nos elemento irmãos após o Exemplo4, no caso, os <p>**/
+    color: green;
+}
+

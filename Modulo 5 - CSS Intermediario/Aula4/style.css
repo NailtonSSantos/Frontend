@@ -1,0 +1,30 @@
+body{
+    background: url(https://i.pinimg.com/originals/b0/32/98/b03298b5942778e8c7c4920383cb24ec.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul{
+    background-color: gray;
+    padding: 20px;
+    opacity: 0.8;
+    /*visibility: hidden;*/
+    /*display: none;*/
+}
+
+ul li{
+    display: inline;
+    margin: 20px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid white;
+    padding: 5px;
+}

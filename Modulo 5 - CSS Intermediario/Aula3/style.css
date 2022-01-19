@@ -1,0 +1,21 @@
+ul{
+    background-color: gray;
+    padding: 20px;
+}
+
+ul li{
+    display: inline;
+    margin: 20px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid white;
+    padding: 5px;
+}

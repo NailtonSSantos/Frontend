@@ -1,0 +1,8 @@
+div{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    overflow: auto;             /* Tudo que estoura, passa do limite definido
+    overflow: scroll;   
+    overflow-x: hidden;*/
+} 

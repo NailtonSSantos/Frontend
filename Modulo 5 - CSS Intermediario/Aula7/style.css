@@ -1,0 +1,37 @@
+::selection{   /*Quando seleciona o texto, ele assume esse comportamento, os :: em CSS é para aplicar o PseudoElemento em todo o site*/
+    color: white;
+    background: black; 
+}
+
+
+p::first-line{
+    color: orange;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 60px;
+}
+
+h1::before{
+    background: url(https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/rocket-512.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+}
+
+h1::after{
+    background: url(https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/rocket-512.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+}
+    
+    /* PseudoElementos - Muda o estado de um elemento*/
+ 

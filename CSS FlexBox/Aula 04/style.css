@@ -1,0 +1,35 @@
+
+
+.container{
+    display: flex;
+    flex-direction: row; /*flex-direction: column;*/
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+    background: silver;
+    height: 600px;
+
+}
+.caixa{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    /*align-self: center; Alinhamento dele mesmo
+    order: 1; Contagem do zero*/
+    flex-grow: 2; /*grow - crescer. Neste caso o elemento vai ficar 2 x seu tamanho*/
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}

@@ -1,0 +1,17 @@
+h1{
+    color: var(--corPrimaria);
+}
+
+h2, h3{
+    color: var(--corSecundaria);
+    margin: var(--espacamento);
+}
+
+p{
+    color: var(--corPrimaria);
+}
+
+button{
+    background: var(--corPrimaria);
+    color: white;
+}

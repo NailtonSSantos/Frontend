@@ -1,0 +1,22 @@
+/*Aula de Transition*/
+
+body{
+    margin: 100px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    /* transition-property: width; /*all* /
+    transition-duration: 500ms; /*ms - Milisegundos / s - segundos* /
+    transition-timing-function: ease; /* Cubic-Bezier no Dev Tools * /
+    transition-delay: 500ms; */
+
+    transition: width 500ms ease-in 500ms; /*Short-Hand*/
+}
+
+.box:hover{
+    width: 500px;
+    background-color: red;
+}

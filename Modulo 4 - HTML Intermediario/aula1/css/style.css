@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: grey;
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 40px;
+}
+
+.conteiner{
+    display: flex;
+}
+
+.navBar{
+    width: 30%;
+    padding: 30px;
+    background: #a3a3a3;
+}
+
+.content{
+    width: 70%;
+    padding: 30px;
+    background: #d8d8d8;
+}
+
+.footer{
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.imgQuemSomos{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+.contentQuemSomos h1{
+    text-align: center;
+    margin: 10px 10px;
+}

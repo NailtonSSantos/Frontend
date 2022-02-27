@@ -1,2 +1,2 @@
-//alert('Hello Wolrd!')
-console.log('Hello Wolrd!')
+alert('Hello Wolrd!')
+//console.log('Hello Wolrd!')

@@ -27,9 +27,17 @@
 
 </head>
 <body>
-
-    <input class='tarefa' type="text" name="tarefa" placeholder="Digite uma Tarefa">
-    <button id="botaoCadastrar">Cadastrar</button>
+    <form id="formCadastro">
+        <div>
+          <label>
+            Nome
+            <input type="text" name="nome">
+            <span class="erro"></span>
+          </label>
+        </div>
+    
+        <button type="submit">Cadastrar</button>
+      </form>
 
     <div class="toast">Tarefa Cadastrada com sucesso!</div>
 

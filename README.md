@@ -1,4 +1,4 @@
-# curso-dev-fullstack
+# Sistemas - fullstack
 
 Curso do Professor Thiago Medeiros. Muito bom mesmo.
 
